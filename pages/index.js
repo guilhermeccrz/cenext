@@ -170,7 +170,7 @@ export default function Home() {
 
       <main>
         <h1 className="title"> Challenge <strong>eNext</strong></h1>
-        <p className="description">Using <code>React/NextJS</code></p>
+        <p className="description">Usando <code>React/NextJS</code></p>
 
         <div className="grid">
           <div className="card">
@@ -193,12 +193,11 @@ export default function Home() {
               {previewUrl && <img className="preview" alt="Crop preview" src={previewUrl} />}
               {
                 !sentForm &&
-                <button className={form.isValid ? 'valid': 'invalid'} disabled={!form.isValid}>Register</button>
-
+                <button className={form.isValid ? 'valid': 'invalid'} disabled={!form.isValid}>Registrar</button>
               } 
               {
                 sentForm &&
-                <div className="success">Register Completed ✔</div>
+                <div className="success">Registro completo ✔</div>
               } 
             </form>
           </div>
