@@ -1,0 +1,42 @@
+{
+  "name": "challenge-enext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "eslint": "eslint components/*/*.js pages/**.js"
+  },
+  "jest": {
+    "verbose": true,
+    "setupFiles": [
+      "<rootDir>/setupTests.js"
+    ]
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "cropperjs": "^1.5.7",
+    "next": "9.4.2",
+    "node-sass": "^4.14.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-image-crop": "^8.6.2",
+    "react-input-mask": "^3.0.0-alpha.2",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "jest": "^26.0.1",
+    "react-test-renderer": "^16.13.1"
+  }
+}
